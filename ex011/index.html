@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente diminua ou aumente o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="./imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="./imagens/m.png" type="image/png">
+        <img src="./imagens/g.png" alt="Imagem Flexível">
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <!--<audio src="midia/ily-baby-dyalla.mp3" controls autoplay></audio> -->
+    <!--(MP3 WAV OGG)  -->
+    <!-- Acima, em comentários, temos um código para adicionar mídia no site, mas aparentemente não funcionou muito bem, ele toca a música se vc der play mas não automaticamente como deveria quando adicionamos o comando autplay -->
+    <audio preload="metadata" controls>
+        <source src="midia/ily-baby-dyalla.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
