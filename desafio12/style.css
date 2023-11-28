@@ -48,10 +48,6 @@ a:hover {
     text-decoration: underline;
 }
 
-main p {
-
-}
-
 section {
     font-size: 3.5vw;
     padding-top: 10vh;
@@ -61,38 +57,38 @@ section {
     font-family: var(--fonte3);
 }
 
+section p {
+    padding-bottom: 2em;
+}
+
 section.normal {
     background-color: white;
     color: black;
 }
 
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.455);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.587);
+    text-shadow: 1px 1px 0px black;
 }
 
-.imagem1 {
+#img01 {
     background-image: url('./imagens/background001.jpg');
-    background-size: cover;
     background-position: right center;
-    background-attachment: fixed;
-    box-shadow: inset 0px 10px 16px 2px #00000099;
 }
 
-.destaque1 {
-    max-width: 600px;
-    background-color: rgba(0, 0, 0, 0.476);
-    color: white;
-    padding-left: 5px;
-}
-
-.imagem2 {
+#img02 {
     background-image: url('./imagens/background002.jpg');
-    background-size: cover;
     background-position: right center;
-    background-attachment: fixed;
-    box-shadow: inset 0px 10px 16px 2px #00000099;
 }
 
 footer {
