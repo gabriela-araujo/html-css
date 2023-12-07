@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    body {
+    font-family: 'Source Sans 3', sans-serif;
+    text-align: center;
+    }
+
+    caption {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    table {
+    width: 500px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    }
+
+    th, td {
+    border: 1px solid black;
+    padding: 5px;
+    }
+
+    .cnome {
+        background-color: #8DCBED;
+    }
+
+    .cgrupo {
+        background-color: #3AC9C4;
+    }
+
+    .cprof {
+        background-color: #FA96B2;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+
+    <table>
+
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprof">
+        </colgroup>
+
+
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Ana Maria</td>
+            <td>Feminino</td>
+            <td>38</td>
+            <td>Enfermeira</td>
+        </tr>
+
+        <tr>
+            <td>José</td>
+            <td>Masculino</td>
+            <td>22</td>
+            <td>Estagiário</td>
+        </tr>
+
+        <tr>
+            <td>Marcela</td>
+            <td>Feminino</td>
+            <td>32</td>
+            <td>Advogada</td>
+        </tr>
+
+        <tr>
+            <td>Pedro</td>
+            <td>Masculino</td>
+            <td>45</td>
+            <td>Pedreiro</td>
+        </tr>
+
+        <tr>
+            <td>Maria</td>
+            <td>Feminino</td>
+            <td>45</td>
+            <td>Juíza</td>
+        </tr>
+
+        <tr>
+            <td>Victor</td>
+            <td>Masculino</td>
+            <td>27</td>
+            <td>Videomaker</td>
+        </tr>
+
+    </table>
+</body>
+</html>
