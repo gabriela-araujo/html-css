@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .item {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+  }
